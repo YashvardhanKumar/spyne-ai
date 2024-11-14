@@ -156,7 +156,7 @@ export default function Login() {
           )}
         </Formik>
         <p className="mt-2 text-center text-sm text-gray-600">
-          Don't have an account?{" "}
+          {"Don't have an account? "}
           <Link
             href="/signup"
             className="font-medium text-indigo-600 hover:text-indigo-500"
