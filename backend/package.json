@@ -3,7 +3,6 @@
   "version": "1.0.0",
   "main": "index.js",
   "scripts": {
-    "build": "npm install",
     "start": "ts-node index.ts",
     "dev": "nodemon index.ts",
     "test": "echo \"Error: no test specified\" && exit 1",
