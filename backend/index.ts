@@ -11,7 +11,6 @@ import YAML from 'yamljs';
 import cors from "cors"
 import cookieParser from "cookie-parser";
 // configure dotenv to access environment variables
-import sw from 'swagger-ui-dist'
 
 const app = express();
 app.use(cors({
@@ -20,8 +19,6 @@ app.use(cors({
 }));
 app.use(cookieParser());
 connectDB();
-
-app.use(express.static(sw.absolutePath()))
 
 app.use(express.json());
 
