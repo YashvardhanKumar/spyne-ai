@@ -25,8 +25,7 @@ export default function Login() {
       setStatus: (status: any) => void;
     }
   ) => {
-    // In a real application, you would make an API call here to authenticate the user
-    // For demonstration purposes, we'll simulate a failed login
+    fetch()
     setTimeout(() => {
       setStatus("Invalid email or password. Please try again.");
       setSubmitting(false);
